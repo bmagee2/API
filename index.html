@@ -8,17 +8,48 @@
     <link rel="stylesheet" href="./styles.css" >
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Brawler&display=swap" rel="stylesheet"> 
 </head>
 <body>
-
 <div id="background-image">
 
-    <div class="container">
+<div class="body-wrapper">  
+<!-- HEADER -->
+    <div class="container-header">
         <span class="border">api</span>
-        
-        <span class="border">search form</span>
+        <span class="border">open library</span>
     </div>
 
+<!-- SEARCH -->
+    <div class="container-search">
+        <div class="controls">
+            <form>
+            <p>
+                <label for="search">Enter a SINGLE search term: </label>
+                <input type="text" id="search" class="search" required>
+            </p>
+            <p>
+                <button class="submit">Search</button>
+            </p>
+            </form>
+        </div>  
+    </div>
+
+<!-- RESULTS -->
+
+<div class="container-results">
+    <!--Results Navigation-->
+    <nav>
+      <button class="prev">Previous 10</button>
+      <button class="next">Next 10</button>
+    </nav>
+    <!--Results From Request-->
+    <section>
+
+    </section>
+  </div>
+
+</div> 
 </div>
 
 
