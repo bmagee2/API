@@ -1,5 +1,5 @@
 // URL
-const baseURL = "http://openlibrary.org/search.json?q=books";
+const baseURL = "http://openlibrary.org/search.json?q=";
 let url;
 // SEARCH FORM
 const searchTerm = document.querySelector('.search'); 
