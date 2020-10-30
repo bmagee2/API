@@ -43,8 +43,8 @@ ul {
 }
 
 .container-header span.border {
-    /* background-color: #fff; */
-    background-color: blue;
+    background-color: #fff;
+    /* background-color: blue; */
     color: #111;
     padding: 18px;
     font-size: 30px;
@@ -88,8 +88,8 @@ ul {
 
 /* SEARCH BUTTON */
 .submit {
-    /* background-color: #111; */
-    background-color: orange;
+    background-color: #111;
+    /* background-color: orange; */
     font-family: 'Brawler', serif;
     color: #fff;
     padding-top: 10px;
