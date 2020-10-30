@@ -43,7 +43,8 @@ ul {
 }
 
 .container-header span.border {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: blue;
     color: #111;
     padding: 18px;
     font-size: 30px;

@@ -1,10 +1,11 @@
 // URL
-const baseURL = "http://openlibrary.org/search.json?q=";
+const baseURL = "https://openlibrary.org/search.json?q=";
 let url;
 // SEARCH FORM
 const searchTerm = document.querySelector('.search'); 
 const searchForm = document.querySelector('form');                  
 const submitButton = document.querySelector('.submit');
+
 let section = document.querySelector("section");
 // RESULTS SECTION
 const results = document.querySelector('section');
@@ -14,7 +15,7 @@ searchForm.addEventListener('submit', fetchResults);
 function fetchResults(object) {
     console.log(object);  
     object.preventDefault();
-    url = `${baseURL}?t=${searchTerm.value}`;
+    let url = `${baseURL}?t=${searchTerm.value}`;
     console.log(url);
     // FETCH REQUEST
     fetch(url)   // RUN URL
